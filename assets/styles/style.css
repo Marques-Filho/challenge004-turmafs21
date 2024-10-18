@@ -1,0 +1,137 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Fredoka One', cursive;
+  background-color: #f8f9fa;
+}
+
+.hero {
+  background-color: #250000;
+  color: white;
+  padding: 50px 0;
+}
+
+.logo {
+  background-color:  #3d0000;
+  
+}
+
+.hero-title {
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 48px;
+  color: white;
+}
+
+.hero-subtitle {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 22px;
+  margin-top: 10px;
+}
+
+.burger-img img {
+  width: 450px;
+  object-fit: cover;
+}
+
+/* Ajuste responsivo */
+@media (max-width: 768px) {
+  .burger-img img {
+    width: 300px;
+  }
+
+  .hero-title {
+    font-size: 36px;
+  }
+
+  .hero-subtitle {
+    font-size: 16px;
+  }
+}
+
+.combos {
+  background-color: #fff;
+}
+
+.combos h3 {
+  font-size: 24px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.combos p {
+  font-size: 14px;
+  color: #666;
+}
+
+.combos .price {
+  font-size: 22px;
+  font-weight: bold;
+  color: #000;
+  margin-top: 10px;
+  display: block;
+}
+
+img.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+hr {
+  border: 1px solid #1b1717; /* Aumente o valor para espessura maior */
+  margin: 20px 0; /* Espaçamento superior e inferior */
+}
+
+.banner-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.banner-item {
+  flex: 1 1 48%; /* Definimos para ocupar 48% da largura, com espaçamento entre eles */
+  margin: 10px;
+}
+
+.banner-item img {
+  width: 100%; /* Garantir que a imagem ocupe a largura completa */
+  height: auto; /* Manter a proporção da imagem */
+}
+
+.footer {
+    background-color:  #3d0000;
+    color: white;
+}
+
+.footer-link {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+    color: #ffd700;
+    text-decoration: underline;
+}
+
+/* Estilo dos Ícones Sociais */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-link {
+    font-size: 1.5rem;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.social-link:hover {
+    color: #ffd700;
+}
