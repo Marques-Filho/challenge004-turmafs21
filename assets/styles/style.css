@@ -55,7 +55,7 @@ nav a:hover {
 /* Ajuste responsivo */
 @media (max-width: 768px) {
   .burger-img img {
-    width: 300px;
+    width: 400px;
   }
 
   .hero-title {
@@ -90,7 +90,7 @@ nav a:hover {
   display: block;
 }
 
-img.img-fluid {
+img.img-combos {
   max-width: 100%;
   height: auto;
 }
