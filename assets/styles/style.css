@@ -128,6 +128,25 @@ img.img-combos {
   height: auto;
 }
 
+/* Efeito de zoom em toda a seção do combo (imagem, título, descrição e preço) */
+.combo-item {
+  transition: transform 0.3s ease; /* Transição suave */
+  display: inline-block; /* Para garantir que o efeito funcione em bloco */
+}
+
+.combo-item:hover {
+  transform: scale(1.1); /* Aumenta tudo em 10% */
+}
+
+/* Garantir espaçamento entre os elementos */
+.combo-item img {
+  margin-bottom: 15px;
+}
+
+.combo-item h3, .combo-item p, .combo-item .price {
+  margin: 10px 0;
+}
+
 hr {
   border: 1px solid #1b1717;
   margin: 20px 0;
