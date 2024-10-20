@@ -65,6 +65,15 @@ nav a:hover {
   .hero-subtitle {
     font-size: 16px;
   }
+  .ham-pq {
+    padding-bottom: 30px;
+  }
+  .container-pq {
+    width: 350px;
+  }
+  .ham-tm {
+    padding: 15px;
+  }
 }
 
 .combos {
